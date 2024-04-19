@@ -1,7 +1,6 @@
 import React from "react";
 import { BingoTicket } from "../types"
 import bingoStore from "./BingoStore";
-import BingoStore from "./BingoStore";
 import { observer } from "mobx-react";
 
 
