@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DrawnNumbers from './components/DrawnNumbers';
+import RegisteredTickets from './components/RegisteredTickets';
+import UnregisteredTickets from './components/UnregisteredTickets';
+import Winners from './components/Winners';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -10,6 +14,10 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
+    <DrawnNumbers />
+    <Winners />
+    <RegisteredTickets />
+    <UnregisteredTickets />
   </React.StrictMode>
 );
 
